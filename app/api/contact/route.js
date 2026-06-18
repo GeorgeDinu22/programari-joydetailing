@@ -6,7 +6,7 @@ const cache = new Map();
 
 const redis = new Ratelimit({
     redis: redisRateLimit,
-    limiter: Ratelimit.slidingWindow(4, "60 s"),
+    limiter: Ratelimit.slidingWindow(5, "60 s"),
     ephemeralCache: cache,
     analytics: false,
 });

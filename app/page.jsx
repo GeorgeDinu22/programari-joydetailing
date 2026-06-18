@@ -199,7 +199,7 @@ export default function Home() {
             <circle className="successCheckCircle" cx="26" cy="26" r="24" fill="none" />
             <path className="successCheckMark" fill="none" d="M14 27 l8 8 l16 -16" />
           </svg>
-        <p className="successText">Un membru Joy Detailing te va contacta în curând.</p>
+        <p className="successText">Joy Detailing te va contacta în curând.</p>
         <div className="contactAgain" onClick={handleReset}>Trimite o cerere nouă</div>
       </div>
     )
